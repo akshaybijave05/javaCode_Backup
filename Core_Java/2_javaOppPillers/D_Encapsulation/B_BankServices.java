@@ -8,11 +8,13 @@ class bank
 {
 	private double bal=50000; //data memb.always private in encapsulation 
 	private int psd;          //encapsulation provided the security
+
   public void deposite(double money)  //methods always public 
   {
 	System.out.println("enter password");
 	Scanner s=new Scanner(System.in);
 	psd=s.nextInt();
+
 	if(psd==123)
 	{
 		bal=bal+money;
@@ -32,6 +34,7 @@ class bank
 	   System.out.println("enter password");
 	   Scanner s=new Scanner(System.in);
 	   psd=s.nextInt();
+
 	   if(psd==123)
 	   {
 		   bal=bal-money;
@@ -51,6 +54,7 @@ class bank
 	   System.out.println("enter password");
 	   Scanner s=new Scanner(System.in);
 	   psd=s.nextInt();
+
 	   if(psd==123)
 	   {
 		   System.out.println("total balance:"+bal);
@@ -61,6 +65,7 @@ class bank
 	   }
    }
 }
+
 public class B_BankServices 
 {
 	public static void main(String[]args)	
@@ -71,15 +76,17 @@ public class B_BankServices
 		Scanner s2=new Scanner(System.in);
 		int ch;
 		ch=s2.nextInt();
+
+
 		switch(ch)
 		{
-		case 1: ref.deposite(10000);
+		  case 1: ref.deposite(10000);
 		        break;
-		case 2: ref.withdraw(5000); 
+		  case 2: ref.withdraw(5000); 
 		        break;
-		case 3: ref.checkbal();
+		  case 3: ref.checkbal();
 		        break;
-		default:System.out.println("wrong input plz correct input enter");
+		  default:System.out.println("wrong input plz correct input enter");
 		}
 	}
 

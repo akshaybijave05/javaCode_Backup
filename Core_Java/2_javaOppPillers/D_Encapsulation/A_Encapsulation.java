@@ -1,5 +1,6 @@
 package D_Encapsulation;
 
+
 /*encapsulation is a mechanism through which we can binding the data members(var) and member methods
  in a single unit.i.e. encapsulation security purpose used
 i.e.Encapsulation in Java is a process of wrapping code and data together into a single unit
@@ -17,24 +18,29 @@ class student
 	private int age;  //Private is using to hide the data
 	private String name;
 	
+
 	//setters and getters
 	public int getAge()
 	{
 		return age;
 	}
+
 	public void setAge(int age)//set the value
 	{
 		this.age = age;
 	}
+
 	public String getName()    //get the value
 	{
 		return name;
 	}
+
 	public void setName(String name) 
 	{
 		this.name = name;
 	}
 }
+
 public class A_Encapsulation 
 {
 	public static void main(String[] args) 
