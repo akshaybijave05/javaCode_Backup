@@ -5,6 +5,7 @@ package A_Constructors;
 
 class a
  {
+
    int a;String b;
    a()
    {
@@ -12,13 +13,16 @@ class a
 	 b="akshaybijave";
      System.out.println(a+" "+b);
    }
+
    a(a ref )//create class type reference. 
    {
 	int c=ref.a; 
 	String d =ref.b;
 	 System.out.println(c+" "+d);
    }
+
 }
+
 
 class D_CopyConstructor
 {

@@ -10,6 +10,8 @@ class AAA
 	  System.out.println("this is super class method ");
 	}
 }
+
+
 class BBB extends AAA
 {
 	
@@ -19,6 +21,8 @@ class BBB extends AAA
 		System.out.println("this is subclass method");
 	}
 }
+
+
 class B_SuperKeyMethod
 {
 

@@ -7,11 +7,13 @@ note-1)the main purpose of constructor is initialize the object.
 3)a constructor is automatically called at the time of object create.
 4)a constructor never contain any return type including void.*/
 
+
 public class A_SimpleConstructor 
 { 
 	int a;String s;//instance var
+
     A_SimpleConstructor() //constructor
-	{
+        {
 	  a=5;s="akshay";
 	  System.out.print(a+" "+s);
 	}
@@ -22,4 +24,5 @@ public class A_SimpleConstructor
 	{
 	  A_SimpleConstructor ref=new A_SimpleConstructor();//constructor call
 	}
+
 }

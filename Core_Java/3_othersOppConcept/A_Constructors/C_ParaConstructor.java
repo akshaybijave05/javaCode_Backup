@@ -1,7 +1,9 @@
 package A_Constructors;
 
+
 /*parametrized constructor- a constructor through which we can pass one or more parameters is call 
 parametrized constructor*/ 
+
 
 class PConst
 {    
@@ -12,6 +14,7 @@ class PConst
 		 System.out.println("value of b:"+b);
 	 }
 }
+
 class C_ParaConstructor
 {
 	public static void main(String[] args)
