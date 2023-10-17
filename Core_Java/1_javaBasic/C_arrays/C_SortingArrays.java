@@ -16,5 +16,7 @@ public class C_SortingArrays
 		 {
 			 System.out.print(b+"   ");
 		 }
+
 	}
+
 }

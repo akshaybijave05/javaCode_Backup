@@ -1,7 +1,9 @@
 package A_simpleProgram;
 
 //addition example
+
 import java.util.Scanner;//Scanner class-user runtime input
+
 public class C_Addition 
 {
 	public static void main(String[] args) 

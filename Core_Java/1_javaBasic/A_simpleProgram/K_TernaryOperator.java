@@ -2,7 +2,9 @@ package A_simpleProgram;
 
 //find the greater no help of the ternary op i.e. conditional op.
 
+
 import java.util.Scanner;
+
 
 public class K_TernaryOperator 
 {

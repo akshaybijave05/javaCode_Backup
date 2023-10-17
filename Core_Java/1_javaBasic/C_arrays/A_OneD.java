@@ -1,4 +1,5 @@
 package C_arrays;
+
 /*arrays is an object in java, which contains a similar type of data
 in a continuous memory location. array index start with 0
 type---1)1D array 2)2D array or multi diamensional array.*/
@@ -22,5 +23,7 @@ public class A_OneD
 		 {
 			 System.out.print(b+"   ");
 		 }
+
 	}
+
 }

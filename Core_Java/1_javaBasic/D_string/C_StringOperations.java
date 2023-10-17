@@ -8,6 +8,8 @@ public class C_StringOperations
 		String s=" akshay ";
 		String s1="bijave";
 		int a=10;
+
+
 		//string operation
 		System.out.println("given string is:\n akshay  ");
 		System.out.println(".length();return length of string:\n"+s.length());//length() return length of string

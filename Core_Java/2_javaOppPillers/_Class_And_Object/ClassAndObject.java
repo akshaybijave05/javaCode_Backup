@@ -4,6 +4,8 @@ package A_class_And_object;
 (i.e. collections of data types and methods constructor) class does not any memory.
 note.1) class is virtual(logical part) 2) object is real
 types.1) user defined like person 2)pre-defined like System,String,Scanner,etc*/
+
+
 public class ClassAndObject
 {
 	int age=24;//common properties

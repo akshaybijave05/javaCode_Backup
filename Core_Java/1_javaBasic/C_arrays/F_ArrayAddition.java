@@ -1,10 +1,10 @@
 package C_arrays;
 
 public class F_ArrayAddition
-{
+ {
 
-	public static void main(String[] args)
-{
+  public static void main(String[] args)
+  {
 		
 
 		float[]a={22.2f,54.65f,10.0f,08.20f,12.12f};
@@ -19,6 +19,5 @@ public class F_ArrayAddition
 		System.out.println("sum of array is:"+sum);
 		
 	
-	}
-
+ }
 }

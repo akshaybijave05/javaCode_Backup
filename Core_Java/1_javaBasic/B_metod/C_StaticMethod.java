@@ -1,6 +1,8 @@
 package B_metod;
 
+
 //static method no need object without obj access method i.e. static 
+
 
 public class C_StaticMethod
 {
@@ -19,4 +21,5 @@ public class C_StaticMethod
 	    System.out.println(add(10,20));
 	    display();       
 	  }
+
  }

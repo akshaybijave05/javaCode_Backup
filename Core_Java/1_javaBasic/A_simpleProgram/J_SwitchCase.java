@@ -2,7 +2,9 @@ package A_simpleProgram;
 
 //switch() case  is a multiple choice dicision making selection statement
 //it is used when we want to select only one case out of multiple cases.
+
 import java.util.*;
+
 
 public class J_SwitchCase 
 {
@@ -28,5 +30,7 @@ public class J_SwitchCase
 		       break;
 		default:System.out.println("invalid input no any operation perform");       
 		}
+
 	}		
+
 }

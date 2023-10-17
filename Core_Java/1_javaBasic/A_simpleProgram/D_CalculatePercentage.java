@@ -2,7 +2,9 @@ package A_simpleProgram;
 
 
 //calculate percentage AND FIND THE RESULT PASS OR NOT 
+
 import java.util.Scanner;//by user input use scanner
+
 
 class D_CalculatePercentage 
 {

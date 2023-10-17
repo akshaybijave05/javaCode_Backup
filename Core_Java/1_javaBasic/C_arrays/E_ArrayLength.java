@@ -1,4 +1,5 @@
 package C_arrays;
+
 //find the length of array
 
 public class E_ArrayLength
@@ -10,8 +11,7 @@ public class E_ArrayLength
 		System.out.println("no.of values:"+a.length);
 		for(int c:a)
 		{
-			System.out.println(c);
-			
+	          System.out.println(c);	
 		}
 
 	}

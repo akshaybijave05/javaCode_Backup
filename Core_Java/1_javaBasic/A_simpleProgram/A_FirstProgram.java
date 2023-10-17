@@ -1,6 +1,8 @@
 package A_simpleProgram;
 
 //java first simple program 
+
+
 public class A_FirstProgram
 {
 //start & end of java program execution from main() means jvm call main()

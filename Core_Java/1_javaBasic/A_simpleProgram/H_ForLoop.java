@@ -1,6 +1,9 @@
 package A_simpleProgram;
 
+
 import java.util.Scanner;
+
+
 public class H_ForLoop
  {
     
@@ -24,7 +27,8 @@ public class H_ForLoop
 	 
          while(b>=0)//dont know loop repeatation so use while loop
           {
-    	  if(b%2==0)
+
+    	   if(b%2==0)
     	   {
     		System.out.println(b+"no. is even");
     		break;
@@ -34,7 +38,8 @@ public class H_ForLoop
     		System.out.println(b+ " "+"no. is odd");
     		break;
     	   }
-	 	 }
+	 }
      
-	}
+      }
+
  }
