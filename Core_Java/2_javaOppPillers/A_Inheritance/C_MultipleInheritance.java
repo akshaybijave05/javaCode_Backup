@@ -10,23 +10,29 @@ To prevent such situation, multiple inheritance is not allowed in java.*/
 interface Aaa    //super  1
 {
 	void show();  //(public+abstract)
+
 	void display();
 }
+
 interface Bbb   //super 2
 {
 	void show();  //(public+abstract)
 }
+
 class C implements Aaa,Bbb  //sup
 {
 	public void show() 
 	{
 		System.out.println("interface A and B ");
 	}
+
 	public void display()
 	{
 		System.out.println("interface A");
 	}
+
 }
+
 public class C_MultipleInheritance
 {
 	public static void main(String[] args)

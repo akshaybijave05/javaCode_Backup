@@ -9,21 +9,27 @@ class Aaaaa //super class
 	{
 		System.out.println("enter your name");
 	}
+
 }
+
 class Bbbbb extends Aaaaa//sup 1 class
 {
 	void show()
 	{
 		System.out.println("my name is:Aniket");
 	}
+
 }
+
 class Ccccc extends Aaaaa   //sub2 class
 {
 	void display()
 	{
 		System.out.println("my name is:Abhijit");
 	}
+
 }
+
 public class D_HierarchicalInheritance
 {
 

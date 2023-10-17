@@ -1,16 +1,20 @@
 package A_Inheritance;
+
 /*multilevel inheritance we have only one super class&multiple 
 sub classes called multilevel inheritance*/
+
 
 class Aaaa   //super class
 {
 	int a,b,c;
+
 	void add()
 	{
 		a=10;b=20;
 		c=a+b;
 		System.out.println("addi is:"+c);
 	}
+
 	void sub()
 	{
 		a=10;b=20;
@@ -19,6 +23,7 @@ class Aaaa   //super class
 		
 	}
 }
+
 class Bbbb extends Aaaa  //sub1 class
 {
 	void mul()
@@ -28,6 +33,7 @@ class Bbbb extends Aaaa  //sub1 class
 		System.out.println("mul is:"+c);
 		
 	}
+
 	void div()
 	{
 		a=10;b=20;
@@ -36,6 +42,7 @@ class Bbbb extends Aaaa  //sub1 class
 		
 	}
 }
+
 class Cccc extends Bbbb  //sub2 class
 {
 	void rem()
@@ -45,6 +52,7 @@ class Cccc extends Bbbb  //sub2 class
 		System.out.println("rem is:"+c);
 	}
 }
+
 public class B_MultilevelInheritance 
 {
 

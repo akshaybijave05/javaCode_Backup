@@ -1,5 +1,6 @@
 package A_class_And_object;
 
+
 /*class is a group of elements having common properties and behaviours 
 (i.e. collections of data types and methods constructor) class does not any memory.
 note.1) class is virtual(logical part) 2) object is real
@@ -16,10 +17,12 @@ public class ClassAndObject
 	{
 		System.out.println("I'm sleeping");
 	}*/
+
 	void eat()//common behaviours
 	{
 		System.out.println("I'm eating");
 	}
+
 	public static void main(String[] args)
 	{
 	  ClassAndObject p=new ClassAndObject();//object create 
