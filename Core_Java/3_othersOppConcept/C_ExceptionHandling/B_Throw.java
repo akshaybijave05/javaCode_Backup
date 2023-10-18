@@ -6,13 +6,11 @@ why used exception handling(error handling)-normal execution flow of program mai
 
 */
 
+public class B_Throw {
 
-public class B_Throw
-{
-
-	public static void main(String[] args)
-	{
-		System.out.println(10/0);
+	public static void main(String[] args) {
+		
+		System.out.println(10 / 0);
 		throw new ArithmeticException("/by zero");
 
 	}

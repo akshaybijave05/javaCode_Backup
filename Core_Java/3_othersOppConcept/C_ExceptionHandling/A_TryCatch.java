@@ -12,27 +12,22 @@ IOException, SQLException, RemoteException, etc.
 //try and catch exception only executed predefined exception.
 //why used exception handling(error handling)-normal execution flow of program maintaining
 
+public class A_TryCatch {
 
-
-public class A_TryCatch
-{
-
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
+		
 		System.out.println("main method started");
-		int a,b,c;
-		try
-		{
-			a=10;b=0;
-			c=a/b;
-			System.out.println("division is:"+c);
-		}
-		catch(Exception e) // e is a reference var 
+		int a, b, c;
+		try {
+			a = 10;
+			b = 0;
+			c = a / b;
+			System.out.println("division is:" + c);
+		} catch (Exception e) // e is a reference var
 		{
 			System.out.println(e);
 		}
 		System.out.println("main method ended");
-		
 
 	}
 
