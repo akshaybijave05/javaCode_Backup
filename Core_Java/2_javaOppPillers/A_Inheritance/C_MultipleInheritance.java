@@ -14,10 +14,12 @@ interface Aaa    //super  1
 	void display();
 }
 
+
 interface Bbb   //super 2
 {
 	void show();  //(public+abstract)
 }
+
 
 class C implements Aaa,Bbb  //sup
 {
@@ -26,12 +28,14 @@ class C implements Aaa,Bbb  //sup
 		System.out.println("interface A and B ");
 	}
 
+	
 	public void display()
 	{
 		System.out.println("interface A");
 	}
 
 }
+
 
 public class C_MultipleInheritance
 {

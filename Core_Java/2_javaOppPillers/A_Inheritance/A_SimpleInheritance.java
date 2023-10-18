@@ -8,41 +8,37 @@ package A_Inheritance;
  # a sub class contain all the feature of super class so,we should create the object of sub class.
  # method overriding only possible through inheritance. */
 
-
 /*simple/single inheritance nothng but which contain only one super class and only one sub class is
 called as simple inheritance */
 
-
-class Student    //super class
+class Student // super class
 {
-	int rollNo,marks;
+	int rollNo, marks;
 	String name;
-	private String batch;//private data member cant inherite.
+	private String batch;// private data member cant inherite.
 
-	void input()
-	{
+	void input() {
 		System.out.println("enter you rollNo and name and marks");
 	}
 
 }
 
-class AkshayBijave extends Student  //sub class
+class AkshayBijave extends Student // sub class
 {
-	void display()
-	{
-		rollNo=55;
-		name="akshay bijave";
-		marks=123;
-		System.out.println("rollNo:"+rollNo+"\nname:"+name+"\nmarks:"+marks);
+	void display() {
+		rollNo = 55;
+		name = "akshay bijave";
+		marks = 123;
+		System.out.println("rollNo:" + rollNo + "\nname:" + name + "\nmarks:" + marks);
 	}
 
 }
 
-public class A_SimpleInheritance
-{
-	public static void main(String[] args) 
-	{
-		AkshayBijave obj=new AkshayBijave();
+public class A_SimpleInheritance {
+	
+	public static void main(String[] args) {
+		
+		AkshayBijave obj = new AkshayBijave();
 		obj.input();
 		obj.display();
 	}

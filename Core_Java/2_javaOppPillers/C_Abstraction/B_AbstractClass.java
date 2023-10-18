@@ -11,64 +11,60 @@ Abstract class_
 3)if contain both abstract and non abstract methods.
 4)whenever the action is common but implementations are different than we should use abstract method.*/
 
-
 //abstract class example..action common but beheviour different so used to abtract
 
 
-abstract class animal  // this is a abstract class beacause abstract methods present in a class
+abstract class animal // this is a abstract class beacause abstract methods present in a class
 {
-	void legs()
-	{
+	void legs() {
 		System.out.println("all animals have 4 legs");
-		
+
 	}
-	abstract void sound();  //abstract method and all abstract methods any class extends so all methods compulsory defined in extends class
+
+	abstract void sound(); // abstract method and all abstract methods any class extends so all methods
+							// compulsory defined in extends class
+
 	abstract void eat();
 }
 
-class dog extends animal
-{
+class dog extends animal {
+	
 	@Override
-	void sound()
-	{
+	void sound() {
 		System.out.println("boww bowww");
-	}  
+	}
 
-	void eat()
-	{
+	void eat() {
 		System.out.println("meat eating");
 	}
 }
 
-class cow extends animal
-{
+class cow extends animal {
+	
 	@Override
-	void sound()
-	{
+	void sound() {
 		System.out.println("hmmbaa hmmbaa");
 	}
 
-	void eat()
-	{
+	void eat() {
 		System.out.println("grass eating");
 	}
-	
+
 }
 
-public class B_AbstractClass
-{
+public class B_AbstractClass {
 
-	public static void main(String[] args)
-	{
-          dog ref=new dog();// abstract class cant create object.
-          cow ref1=new cow();
-          ref.legs();
-          ref.sound();
-          ref.eat();
-          ref1.legs();
-          ref1.sound();
-          ref1.eat();
-   
+	public static void main(String[] args) {
+		
+		dog ref = new dog();// abstract class cant create object.
+		cow ref1 = new cow();
+		ref.legs();
+		ref.sound();
+		ref.eat();
+		ref1.legs();
+		ref1.sound();
+		ref1.eat();
+
 	}
 
 }

@@ -8,6 +8,7 @@ class Aaaa   //super class
 {
 	int a,b,c;
 
+	
 	void add()
 	{
 		a=10;b=20;
@@ -15,6 +16,7 @@ class Aaaa   //super class
 		System.out.println("addi is:"+c);
 	}
 
+	
 	void sub()
 	{
 		a=10;b=20;
