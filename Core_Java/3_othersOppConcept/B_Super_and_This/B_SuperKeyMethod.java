@@ -5,6 +5,7 @@ package B_Super_and_This;
 
 class AAA
 {
+	
 	void display()//super cls and sub cls both methods name are same
 	{
 	  System.out.println("this is super class method ");
