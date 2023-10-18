@@ -1,4 +1,4 @@
-package A_class_And_object;
+package Class_And_Object;
 
 
 /*class is a group of elements having common properties and behaviours 

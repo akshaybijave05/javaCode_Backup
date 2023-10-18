@@ -4,42 +4,35 @@ package C_arrays;
 
 import java.util.Scanner;
 
+public class D_TwoD {
 
-public class D_TwoD
-{
-
-	public static void main(String[] args)
-	{
-		int a[][]=new int[2][2];
+	public static void main(String[] args) {
+		
+		int a[][] = new int[2][2];
 		System.out.print("enter two dia.arrays values");
-		Scanner s=new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 
-		for(int i=0;i<2;i++)
-		{
+		for (int i = 0; i < 2; i++) {
 
-			for(int j=0;j<2;j++)
-			{
-			 a[i][j]=s.nextInt();	
+			for (int j = 0; j < 2; j++) {
+				a[i][j] = s.nextInt();
 			}
 
 		}
 
-        System.out.println("this is matrix");
-	
+		System.out.println("this is matrix");
 
-     	for(int i=0;i<2;i++)
-	    {
+		for (int i = 0; i < 2; i++) {
 
-     		for(int j=0;j<2;j++)
-     		{
-     				
-     		  System.out.print(a[i]  [j]+" ");
-	
-     		}
+			for (int j = 0; j < 2; j++) {
 
-     		System.out.println();
-	    }
+				System.out.print(a[i][j] + " ");
 
-   }
+			}
+
+			System.out.println();
+		}
+
+	}
 
 }
