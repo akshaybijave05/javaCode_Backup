@@ -5,15 +5,17 @@ Advantage_Reusability,Security,Fast searching,code hiding.*/
 //private access modifier used
 
 package E_package; //user defined package
-public class A_PrivatePackage 
-{
-	private void show()//private access modifier only access within class.
+
+public class A_PrivatePackage {
+	
+	private void show()// private access modifier only access within class.
 	{
 		System.out.println("hello it is a private  method");
 	}
-	public static void main(String[]args)
-	{
-		A_PrivatePackage obj=new A_PrivatePackage();
+
+	public static void main(String[] args) {
+		
+		A_PrivatePackage obj = new A_PrivatePackage();
 		obj.show();
 	}
 
