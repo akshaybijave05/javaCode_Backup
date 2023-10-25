@@ -38,8 +38,8 @@ public class Constructors {
 		Constructors ref = new Constructors(); // default constructor object create
 		Constructors ref1 = new Constructors(20, 10); // parameterized constructor object create
 		Constructors ref2 = new Constructors("AkshayBijave"); //// private constructor object create
-		Constructors ref3 = new Constructors(ref); // copy constructor object create and copy the obj of default
-													// constructor
+		Constructors ref3 = new Constructors(ref); // copy constructor object create and copy the obj of default constructor
+													
 	}
 
 }
